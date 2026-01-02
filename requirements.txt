@@ -1,0 +1,101 @@
+# requirements.txt
+# Projet: Génération de traces Google Cluster par VAE
+# Python version: 3.8+
+
+# ============================================
+# CORE DEPENDENCIES
+# ============================================
+
+# Data manipulation
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0,<3.0.0
+scipy>=1.7.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# ============================================
+# DATA VISUALIZATION
+# ============================================
+
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# ============================================
+# MACHINE LEARNING & METRICS
+# ============================================
+
+scikit-learn>=1.0.0
+dtaidistance>=2.3.0  # Dynamic Time Warping
+fastdtw>=0.3.4       # Fast DTW implementation
+
+# ============================================
+# TIME SERIES ANALYSIS
+# ============================================
+
+statsmodels>=0.13.0
+tsfresh>=0.19.0      # Time series feature extraction (optionnel)
+
+# ============================================
+# CONFIGURATION & UTILITIES
+# ============================================
+
+pyyaml>=6.0
+tqdm>=4.62.0
+tensorboard>=2.10.0
+python-dotenv>=0.19.0
+
+# ============================================
+# DATA I/O
+# ============================================
+
+openpyxl>=3.0.9      # Excel support
+xlrd>=2.0.1          # Excel reading
+h5py>=3.6.0          # HDF5 support
+google-cloud-bigquery>=3.0.0  # BigQuery access for 2019 data
+
+# ============================================
+# JUPYTER & NOTEBOOK
+# ============================================
+
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+notebook>=6.4.0
+
+# ============================================
+# TESTING & QUALITY
+# ============================================
+
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0        # Code formatting
+flake8>=4.0.0        # Linting
+mypy>=0.950          # Type checking
+
+# ============================================
+# OPTIONAL: ADVANCED FEATURES
+# ============================================
+
+# Hyperparameter optimization
+optuna>=3.0.0        # Pour tuning automatique
+
+# Additional time series tools
+pyts>=0.12.0         # Time series classification
+
+# Wasserstein distance (optimal transport)
+POT>=0.8.0           # Python Optimal Transport
+
+# Progress bars
+rich>=12.0.0         # Pretty terminal output
+
+# ============================================
+# DEVELOPMENT UTILITIES
+# ============================================
+
+jupyterlab>=3.4.0
+nbconvert>=6.5.0
+autopep8>=1.6.0
