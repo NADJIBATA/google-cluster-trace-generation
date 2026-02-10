@@ -1,0 +1,15 @@
+{
+  "sequence_length": 288,
+  "stride": 12,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "random_seed": 42,
+  "input_file": "data/processed/time_series_dt5min.csv",
+  "n_sequences": 673,
+  "n_train": 471,
+  "n_val": 100,
+  "n_test": 102,
+  "data_source": "data/processed/time_series_dt5min.csv",
+  "n_features": 1
+}
