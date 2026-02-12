@@ -1,0 +1,15 @@
+{
+  "collapse_severity": "UNKNOWN",
+  "kl_divergence": null,
+  "reconstruction_mse": 0.7933264100709256,
+  "diversity": "HIGH",
+  "inactive_dimensions": 13,
+  "total_dimensions": 32,
+  "inter_sample_variance": 0.09417813271284103,
+  "score": 3,
+  "recommendation": "Le mod\u00e8le fonctionne mais pourrait \u00eatre am\u00e9lior\u00e9",
+  "issues": [
+    "Risque de collapse",
+    "Sous-utilisation de l'espace latent"
+  ]
+}
