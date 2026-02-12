@@ -31,7 +31,7 @@ CONFIG = {
     'data_dir': 'data/processed/sequences',
     
     # Architecture VAE
-    'sequence_length': 288,      # 24h avec Δt=5min
+    'sequence_length': 100,      # 24h avec Δt=5min
     'input_size': 1,             # Features par timestep
     'model_size': 'medium',      # 'small', 'medium', 'large'
     
