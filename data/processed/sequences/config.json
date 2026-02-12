@@ -1,15 +1,15 @@
 {
-  "sequence_length": 288,
-  "stride": 12,
+  "input_file": "data/processed/time_series_dt5min.csv",
+  "sequence_length": 100,
+  "stride": 1,
+  "clip_outliers": true,
+  "clip_percentile": 99,
   "train_ratio": 0.7,
   "val_ratio": 0.15,
   "test_ratio": 0.15,
   "random_seed": 42,
-  "input_file": "data/processed/time_series_dt5min.csv",
-  "n_sequences": 673,
-  "n_train": 471,
-  "n_val": 100,
-  "n_test": 102,
-  "data_source": "data/processed/time_series_dt5min.csv",
-  "n_features": 1
+  "n_sequences": 8255,
+  "n_train": 5778,
+  "n_val": 1238,
+  "n_test": 1239
 }
