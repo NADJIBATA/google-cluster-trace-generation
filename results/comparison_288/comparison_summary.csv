@@ -1,0 +1,5 @@
+scenario,mean_error_pct,std_error_pct,ks_statistic,ks_pvalue,ks_similar,wasserstein_normalized,js_divergence,js_similarity_pct
+nominal,12598.76,99.96,1.0,0.0,False,0.3838,0.8326,16.74
+optimistic,12458.06,99.93,1.0,0.0,False,0.3795,0.8326,16.74
+pessimistic,12781.36,99.81,1.0,0.0,False,0.3894,0.8326,16.74
+random_mean,1139.06,86.31,0.4156,0.0,False,0.1145,0.6214,37.86

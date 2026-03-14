@@ -43,7 +43,7 @@ CONFIG = {
     'num_stress_scenarios': 10,
     
     # Output
-    'output_dir': 'data/generated',
+    'output_dir': 'data/generated/gen2',
     'figures_dir': 'results/figures/scenarios',
     
     # Device
