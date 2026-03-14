@@ -29,7 +29,11 @@ CONFIG = {
     'input_file': 'data/processed/time_series_dt5min.csv',
     
     # Séquences - OPTIMISÉ POUR AVOIR BEAUCOUP DE DONNÉES
+<<<<<<< HEAD
     'sequence_length': 288,     # 100 × 5min = 8.33h
+=======
+    'sequence_length': 100,     # 100 × 5min = 8.33h
+>>>>>>> 9ca3594734c6d125da246961639da0da041e1dc4
     'stride': 1,                # ⭐ stride=1 pour MAXIMUM de séquences !
     
     # Outliers
@@ -245,9 +249,15 @@ print("="*70)
 output_dir = Path("data/processed/sequences")
 output_dir.mkdir(parents=True, exist_ok=True)
 
+<<<<<<< HEAD
 np.save(output_dir / 'train_288.npy', train)
 np.save(output_dir / 'val_288.npy', val)
 np.save(output_dir / 'test_288.npy', test)
+=======
+np.save(output_dir / 'train.npy', train)
+np.save(output_dir / 'val.npy', val)
+np.save(output_dir / 'test.npy', test)
+>>>>>>> 9ca3594734c6d125da246961639da0da041e1dc4
 
 with open(output_dir / 'scaler.pkl', 'wb') as f:
     pickle.dump(scaler, f)

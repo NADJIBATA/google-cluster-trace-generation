@@ -1,15 +1,27 @@
 {
   "collapse_severity": "UNKNOWN",
   "kl_divergence": null,
+<<<<<<< HEAD
   "reconstruction_mse": 0.4734576156762904,
   "diversity": "HIGH",
   "inactive_dimensions": 29,
   "total_dimensions": 32,
   "inter_sample_variance": 0.18108823895454407,
+=======
+  "reconstruction_mse": 0.7933264100709256,
+  "diversity": "HIGH",
+  "inactive_dimensions": 13,
+  "total_dimensions": 32,
+  "inter_sample_variance": 0.09417813271284103,
+>>>>>>> 9ca3594734c6d125da246961639da0da041e1dc4
   "score": 3,
   "recommendation": "Le mod\u00e8le fonctionne mais pourrait \u00eatre am\u00e9lior\u00e9",
   "issues": [
     "Risque de collapse",
+<<<<<<< HEAD
     "Espace latent tr\u00e8s peu utilis\u00e9"
+=======
+    "Sous-utilisation de l'espace latent"
+>>>>>>> 9ca3594734c6d125da246961639da0da041e1dc4
   ]
 }

@@ -1,6 +1,10 @@
 {
   "input_file": "data/processed/time_series_dt5min.csv",
+<<<<<<< HEAD
   "sequence_length": 288,
+=======
+  "sequence_length": 100,
+>>>>>>> 9ca3594734c6d125da246961639da0da041e1dc4
   "stride": 1,
   "clip_outliers": true,
   "clip_percentile": 99,
@@ -8,8 +12,15 @@
   "val_ratio": 0.15,
   "test_ratio": 0.15,
   "random_seed": 42,
+<<<<<<< HEAD
   "n_sequences": 8067,
   "n_train": 5646,
   "n_val": 1210,
   "n_test": 1211
+=======
+  "n_sequences": 8255,
+  "n_train": 5778,
+  "n_val": 1238,
+  "n_test": 1239
+>>>>>>> 9ca3594734c6d125da246961639da0da041e1dc4
 }
